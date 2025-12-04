@@ -19,13 +19,13 @@
 }
 
 .btn {
-    display: block;
+    
     font-size: 12pt;
     background-color: #dde5ede0;
     width: 120pt;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 10pt;
+    margin-left: 4px;
+    margin-right: 4px;
     padding-bottom: 8px;
     padding-top: 8px;
     padding-left: 16px;
@@ -33,4 +33,9 @@
     border: 1px solid white;
     border-radius: 10px;
 
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
 }
