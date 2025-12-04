@@ -14,3 +14,23 @@
     width: 500px;
 
 }
+
+#button {
+    transform: translateX(490pt) translateY(-92pt);
+    font-size: 30pt;
+    text-align:left;
+    height: 90px;
+    width: 297px;
+    margin: 4pt;
+    background-color:blue;
+    color: aliceblue;
+    box-shadow: 5px 5px 5px black;
+    transition: 10s;
+}
+
+.hover{
+    transform: translateX(-20px) translateY(-20px);
+    box-shadow: 25px 25px 25px blue;
+    
+
+}
